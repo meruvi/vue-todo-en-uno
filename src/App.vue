@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Carousel/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Carousel from './components/Carousel.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Carousel
   }
 }
 </script>
